@@ -2,8 +2,8 @@
 Project for Cloning Instagram Services
 
 ### Purpose
-- Instagram Frontend & App Clone : React, React Native, Expo
-- Instagram Backend Clone : SpringBoot
+- Instagram Frontend & App Clone : React, React Native, Expo, Not configuration
+- Instagram Backend Clone : SpringBoot, Not configuration
 
 ### Period
 - **2019/10/23 ~ Now**
@@ -14,5 +14,20 @@ Project for Cloning Instagram Services
 
 ### Work Plan
 - Instagram UI Layouts using react-native
-- Not yet
+- Not configuration
 
+### Implementation function
+- Email / Facebook / Google Log in
+- User Profile
+- Like Photos
+- Comment Photos
+- Multiple Photos
+- Photo Upload
+- Direct Messages
+- Follow / Unfollow
+- Passwordless Login
+- Search Photo
+- Feed
+- iOS / Android Photo Select
+- iOS / Android Camera
+- Push Notifications

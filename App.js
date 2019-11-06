@@ -1,13 +1,20 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import MainScreen from './Components/MainScreen'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <AppContainer/>
   );
 }
+
+const AppStackNavigator = createStackNavigator({
+  Main:{
+    screen: MainScreen
+  }
+})
 
 const styles = StyleSheet.create({
   container: {
@@ -17,3 +24,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+const AppContainer = createAppContainer(AppStackNavigator);
+
+//export default AppContainer;

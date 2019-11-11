@@ -20,9 +20,9 @@ import { Icon } from 'native-base'
 class MainScreen extends Component {
     
     static navigationOptions = {
-        headerLeft: <Icon name="ios-camera" style={{paddingLeft:10}}/>,
-        title:"Instargram",
-        headerRight: <Icon name="ios-send"  style={{paddingRight:10}}/>
+        headerLeft: <Icon name="ios-camera" style={{ paddingLeft:15 }}/>,
+        title: 'Instargram',
+        headerRight: <Icon name="ios-send"  style={{ paddingRight:15 }}/>
     }
     
     render(){
@@ -54,11 +54,15 @@ const TabNavigator = createMaterialTopTabNavigator({
 }, {
     animationEnabled: true,
     swipeEnabled: true,
+    bounces: true,
     tabBarPosition: "bottom",
     tabBarOptions: {
         style: {
             ...Platform.select({
                 android:{
+                    backgroundColor:'white'
+                },
+                ios:{
                     backgroundColor:'white'
                 }
             })

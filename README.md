@@ -6,7 +6,7 @@ Project for Cloning Instagram Services
 - Instagram Backend Clone : SpringBoot, Not configuration
 
 ### Period
-- **2019/10/30 ~ Now**
+- **2019/10/30 ~ STOP
 
 ### References
 - [Instagram UI Tutorial | React Native Layout(UI) Series](https://www.youtube.com/watch?v=cgg1HidN4mQ)
